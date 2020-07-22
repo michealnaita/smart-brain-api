@@ -34,7 +34,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-	res.json(dataBase.users);
+	res.send("it is working");
 });
 
 //SIGN IN ROUTE
